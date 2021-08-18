@@ -33,8 +33,8 @@ func TestChop(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		testname := fmt.Sprintf("elem %d, array %v", test.elem, test.array)
-		t.Run(testname, func(t *testing.T) {
+		testcase := fmt.Sprintf("elem %d, array %v", test.elem, test.array)
+		t.Run(testcase, func(t *testing.T) {
 			ans := chop(test.elem, test.array)
 			if ans != test.attended {
 				t.Errorf("got %d, want %d", ans, test.attended)
