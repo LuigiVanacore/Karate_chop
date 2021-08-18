@@ -1,4 +1,4 @@
-package Karate_chop
+package main
 
 func chop(elem int, v []int) (index int) {
 	for len(v) > 0 {
@@ -18,5 +18,4 @@ func chop(elem int, v []int) (index int) {
 }
 
 func main() {
-
 }
