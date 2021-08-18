@@ -5,10 +5,12 @@ Implementation in Golang of the binary search algorithm. The method used is the 
 ## Link
 http://codekata.com/kata/kata02-karate-chop/
 
+
 ## Tests
 ```
 go test -v
 ```
+
 
 
 
